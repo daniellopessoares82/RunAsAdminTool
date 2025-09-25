@@ -1,0 +1,18 @@
+[
+  {
+    "Path": "C:\\Windows\\System32\\cmd.exe",
+    "DisplayName": "Command Prompt"
+  },
+  {
+    "Path": "C:\\Windows\\System32\\mspaint.exe",
+    "DisplayName": "Paint"
+  },
+  {
+    "Path": "C:\\Windows\\System32\\notepad.exe",
+    "DisplayName": "Notepad"
+  },
+  {
+    "Path": "C:\\Windows\\System32\\taskmgr.exe",
+    "DisplayName": "Task Manager"
+  }
+]

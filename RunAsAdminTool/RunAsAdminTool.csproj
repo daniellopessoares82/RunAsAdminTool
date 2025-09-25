@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ApplicationIcon>business.ico</ApplicationIcon>
+		<AssemblyTitle>Run As Admin Tool</AssemblyTitle>
+		<AssemblyDescription>A lightweight Windows application designed to execute other programs with elevated administrator privileges</AssemblyDescription>
+		<AssemblyCompany>RunAsAdminTool</AssemblyCompany>
+		<AssemblyProduct>RunAsAdminTool</AssemblyProduct>
+		<Copyright>Copyright © 2024</Copyright>
+		<Version>1.0.0</Version>
+		<FileVersion>1.0.0.0</FileVersion>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<WarningsAsErrors />
+		<WarningsNotAsErrors>CS1591</WarningsNotAsErrors>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="Applications.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="business.ico">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Models\" />
+		<Folder Include="Services\" />
+		<Folder Include="Services\Interfaces\" />
+	</ItemGroup>
+
+</Project>
